@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 3rem;
+  background: fixed;
+  position: absolute;
+  width: 100%;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  cursor: pointer;
+}
+
+.navMid {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 0.8rem;
+  color: rgba(14, 8, 8, 0.747);
+  font-weight: bold;
+
+  :hover {
+    /* background-color: gray; */
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+  }
+  .midBtn {
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.2rem;
+  }
+}
+
+.navRight {
+  display: flex;
+  gap: 0.8rem;
+}
