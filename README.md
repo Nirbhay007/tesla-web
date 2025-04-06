@@ -1,5 +1,3 @@
-/******\******* ✨ Codeium Command ⭐ ******\*******/
-
 # Tesla Clone using React and TypeScript
 
 This is a clone of the Tesla website built using React and TypeScript. The project uses Vite as the development server and bundler.
